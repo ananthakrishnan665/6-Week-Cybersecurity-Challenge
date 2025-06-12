@@ -1,0 +1,46 @@
+# ✅ Day 19: Packet Analysis with Zeek and PCAPs
+
+🎯 **Objectives for Today:**
+- Understand how to analyze network packets using **Zeek**
+- Learn how to read **PCAP** files and extract insights
+- Perform hands-on analysis to detect **suspicious traffic**
+
+
+
+## 📘 Theory Topics to Cover
+
+### 🔹 What is a PCAP File?
+- A `.pcap` (packet capture) file contains captured network data.
+- Tools like **Wireshark** and **Zeek** are used to analyze them.
+
+### 🔹 Zeek vs Wireshark:
+| Feature    | Wireshark        | Zeek                           |
+|------------|------------------|--------------------------------|
+| Interface  | GUI-based        | CLI-based                      |
+| Use Case   | Interactive      | Scalable, real-time monitoring |
+
+### 🔹 Zeek Log Files:
+- `conn.log`: All network connections seen
+- `dns.log`: DNS requests and responses
+- `http.log`: HTTP traffic details
+- `weird.log`: Anomalous or unexpected behavior
+- `notice.log`: Important security-related events
+
+### 🔹 Common Indicators in Logs:
+- Suspicious IP addresses
+- High volume traffic
+- Abnormal port usage
+- Known malware-related behavior
+
+
+
+## 💻 Practical Tasks
+
+### ✅ 1. Download & Analyze Sample PCAP with Zeek
+
+sudo apt update && sudo apt install zeek -y
+wget https://github.com/markbaggett/pcapfiles/raw/master/malware.pcap
+mkdir zeek_analysis && cd zeek_analysis
+zeek -r ../malware.pcap
+ls
+
