@@ -1,0 +1,26 @@
+# 🛡️ Day 26: Windows Event Logs, Sysmon, and Log Analysis
+
+## 🧠 Topics Covered:
+- Event Viewer: Understanding Windows Event Log types
+- Key Event IDs:
+  - 4624: Successful login
+  - 4625: Failed login
+  - 4688: New process created
+  - 1102: Audit log cleared
+- What is Sysmon and why it's valuable
+
+- Installing Sysmon:
+ Sysmon64.exe -accepteula -i sysmonconfig.xml
+
+Common Sysmon Event IDs:
+
+Event ID 1: Process creation
+Event ID 3: Network connection
+Event ID 11: File creation
+
+# PowerShell – Get process creation logs
+Get-WinEvent -LogName Security | Where-Object { $_.Id -eq 4688 } | Format-List
+
+# wevtutil – Quick log view
+wevtutil qe Security /q:"*[System[(EventID=4624)]]" /f:text /c:5
+TryHackMe : Windows event log
