@@ -1,0 +1,54 @@
+# ✅ Day 16: Introduction to Log Analysis & Event Correlation
+
+🎯 ** Topic **  
+Understand how to analyze logs from various systems and correlate events to identify potential threats.
+
+
+
+## 📘 Theory Topics to Learn
+
+### 🔹 What is Log Analysis?
+- Purpose and importance in cybersecurity.
+
+### 🔹 Types of Logs:
+- System logs
+- Application logs
+- Security logs
+- Firewall logs
+- IDS/IPS logs
+
+### 🔹 Key Log Sources:
+- **Windows Event Logs**: Security, System, Application
+- **Linux Syslogs**: `/var/log/`
+- **Web server logs**: Apache, Nginx
+- **Firewall & IDS/IPS logs**
+
+### 🔹 Log File Formats:
+- Common formats: **JSON**, **CSV** & **Plain Text**
+- How to read structured vs. unstructured logs
+
+### 🔹 Event Correlation Concepts:
+- Correlation rules
+- Use cases:
+  - Brute-force detection
+  - Lateral movement
+  - Malware beaconing
+
+### 🔹 Important Fields in Logs:
+- Timestamps  
+- IP addresses  
+- Usernames  
+- Event IDs  
+- Process names  
+
+### 🔹 Why Time Synchronization Matters:
+- Use of **NTP (Network Time Protocol)** for log consistency
+
+
+
+## 💻 Practical Tasks
+
+### 1️⃣ Explore Logs on My System
+
+**On Windows -PowerShell
+Get-EventLog -LogName Security -Newest 10
