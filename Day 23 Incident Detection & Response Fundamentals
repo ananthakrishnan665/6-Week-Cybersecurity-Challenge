@@ -1,0 +1,24 @@
+# 🚨 Day 23: Incident Detection & Response Fundamentals
+
+## 📘 Topics Covered:
+- Definition of **Security Incidents**
+- Event vs Incident: Real-world examples
+- **Indicators of Compromise (IOCs)** & **Indicators of Attack (IOAs)**
+- Incident Response Lifecycle (NIST SP 800-61)
+- Preparation
+- Detection & Analysis
+- Containment, Eradication & Recovery
+- Post-Incident Activities
+- Common response tools: SIEM, EDR, Zeek, Suricata
+
+## 🛠️ Commands Practiced:
+
+### 🔍 Detection:
+
+netstat -anob   - Windows: View network connections with process info
+ss -tulnp       -      # Linux: Check listening ports and services
+tasklist        -       # Windows: List running processes
+ps aux          -       # Linux: View running processes
+ipconfig /displaydns -  # Windows: View cached DNS
+tcpdump -i any port 53  -   # Linux: Monitor DNS traffic
+Try Hack Me Lab : Incident Response Fundamentals
