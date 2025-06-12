@@ -1,0 +1,22 @@
+📅 Day 30 – Endpoint Detection and Response (EDR)
+## EDR fundamentals and its role in threat detection & mitigation
+
+## EDR capabilities: detection, telemetry, analysis, response
+
+-Process tree analysis, IOC extraction, and alert triaging
+
+-Threat containment (isolating endpoints, killing processes, blocking threats)
+
+Labs Completed:
+
+-TryHackMe: Intro to Endpoint Security Monitoring
+
+-Simulated EDR console walkthroughs
+
+Tools & Techniques Practiced:
+
+-Sysmon, Windows Event Logs, and task/process monitoring
+
+-Containment actions within EDR: isolate, respond, block
+
+-IOC mapping using MITRE ATT&CK techniques
