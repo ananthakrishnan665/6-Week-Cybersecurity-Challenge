@@ -1,0 +1,38 @@
+# 🚨 Day 21 – Advanced Threat Detection with YARA Rules
+
+## 🔍 Topic Overview:
+YARA is a pattern-matching tool used for identifying and classifying malware. It helps analysts detect threats in files, memory, and processes using rule-based scanning.
+
+
+
+## 🧠 What I Learned:
+
+- What is YARA and why it's used in threat detection
+- Structure of a YARA rule:
+  - `meta` – descriptive tags
+  - `strings` – strings to match
+  - `condition` – logic that determines a match
+- Creating and testing simple YARA rules
+- Using `yara` CLI on Kali Linux
+- Online tools for rule testing
+
+---
+
+## 🧪 Practical: Writing a YARA Rule
+
+**Sample File:**
+```bash
+echo "This is a test with HelloWorld inside." > sample.txt
+Rule File – rule.yar:
+   rule HelloWorldRule {
+    meta:
+        description = "Detects HelloWorld string"
+        author = "MyName"
+    strings:
+        $a = "HelloWorld"
+    condition:
+        $a
+}
+Command to scan:
+  yara rule.yar sample.txt
+
