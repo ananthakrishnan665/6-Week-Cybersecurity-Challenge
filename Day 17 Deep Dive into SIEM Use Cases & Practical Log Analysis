@@ -1,0 +1,27 @@
+# Day 17 – Deep Dive into SIEM Use Cases & Practical Log Analysis
+
+## ✅ Topics Covered
+- Real-world SIEM Use Cases:
+  - Brute-force Attack
+  - Privilege Escalation
+  - Malware Spread Detection
+  - Data Exfiltration
+- Basics of Event Correlation
+- Manual Log Analysis using Linux eg`/var/log/auth.log`
+
+## 🔧 Commands Practiced
+```bash
+# Detect failed login attempts
+grep "Failed password" /var/log/auth.log
+
+# Top IPs attempting brute-force
+grep "Failed password" /var/log/auth.log | awk '{print $(NF-3)}' | sort | uniq -c | sort -nr
+
+# Detect sudo access attempts
+grep "sudo:" /var/log/auth.log
+
+# List successful SSH logins
+grep "Accepted password" /var/log/auth.log
+
+# Filter logins outside working hours (example: 8am–6pm)
+awk '$3 < "08:00:00" || $3 > "18:00:00"' /var/log/auth.log
