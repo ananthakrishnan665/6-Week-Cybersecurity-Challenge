@@ -1,0 +1,22 @@
+# Day 29: Endpoint Security – Tools, EDR, and Use Cases
+
+## Topics Covered:
+- Introduction to Endpoint Security and its significance
+- AV vs NGAV vs EDR
+- Popular EDR tools and their core features
+- Sysmon logs: Key Event IDs (1, 3, 11, 13)
+- Detecting suspicious behaviors (e.g., PowerShell, credential dumping)
+- Mapping detections to MITRE ATT&CK (T1059, T1086, T1078)
+
+## Tools Practiced:
+- OSQuery
+- Event Viewer
+- Elastic SIEM queries (KQL)
+- TryHackMe Premium - Intro to Endpoint Security 
+
+## Key Commands Used:
+- `Get-WinEvent -LogName Microsoft-Windows-Sysmon/Operational`
+- `osqueryi` for process inspection
+- KQL examples for suspicious PowerShell executions
+
+
