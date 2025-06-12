@@ -1,0 +1,22 @@
+# 🛡️ Day 20 – Intrusion Detection Systems (IDS): Snort & Suricata Basics
+
+## 📚 Topics Covered
+
+- What is an IDS (Intrusion Detection System)?
+- Difference between IDS and IPS
+- Types of IDS: Host-based (HIDS) vs. Network-based (NIDS)
+- Signature-based vs. Anomaly-based detection
+- Role of IDS in a SOC environment
+- Snort vs. Suricata: Feature comparison
+
+## 🧪 Practical Tasks
+
+### ✅ Snort Setup and Rules
+
+- Installed Snort on Kali Linux:
+ 
+sudo apt update
+sudo apt install snort
+snort -V
+sudo snort -A console -i eth0 -c /etc/snort/snort.conf
+alert icmp any any -> any any (msg:"ICMP Packet Detected"; sid:1000001; rev:1;)
