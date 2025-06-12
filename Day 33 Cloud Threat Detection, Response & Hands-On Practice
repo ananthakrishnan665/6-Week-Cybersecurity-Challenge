@@ -1,0 +1,12 @@
+## 📅 Day 33: Cloud Threat Detection, Response & Hands-On Practice
+
+### 🧠 What I Learned:
+- Identified and mapped common cloud threats (S3 data leaks, IAM misuse)
+- Studied AWS GuardDuty and CloudTrail alert mechanisms
+- Analyzed IAM and API access logs to identify suspicious behavior
+- Understood incident response lifecycle in the cloud (isolate, revoke, rotate, report)
+- Explored Falco and Wazuh for cloud-native detection in container environments
+
+
+### 🧰 Tools Explored:
+`GuardDuty`, `CloudTrail`, `Falco`, `Wazuh`, `MITRE ATT&CK Cloud Matrix`
