@@ -1,0 +1,38 @@
+# 🚨 Day 14: SOC Analyst Fundamentals – Part 1 (Introduction to SOC and SIEM)
+
+## 📚 What I Learned
+
+### 🔒 What is a SOC (Security Operations Center)?
+- A centralized team responsible for monitoring, detecting, and responding to cybersecurity incidents.
+- Operates 24/7 in shifts often called Blue Team.
+- Tiered structure:
+  - **Tier 1:** Alert monitoring and triage.
+  - **Tier 2:** Deeper investigation of incidents.
+  - **Tier 3:** Threat hunting, malware analysis, and proactive defense.
+
+### 📊 Introduction to SIEM (Security Information and Event Management)
+- SIEM tools collect and analyze logs from various sources.
+- Provides real-time alerting, correlation, and dashboards.
+- Examples: Splunk, IBM QRadar, Elastic SIEM.
+
+### 📁 Types of Logs Collected
+- Firewall logs, authentication logs, endpoint logs, antivirus alerts, IDS/IPS logs.
+- Each log tells a part of the story of what's happening in a network.
+
+### ⚙️ Key SIEM Operations
+- **Ingestion:** Collecting logs.
+- **Normalization:** Structuring data to a standard format.
+- **Correlation:** Matching related logs across sources to detect attacks.
+- **Alerting:** Triggering warnings on suspicious behavior.
+
+## 💡 Key Insights
+- SOC is the heart of real-time defense in cybersecurity.
+- SIEM tools act as the eyes and brain of the SOC team.
+- Understanding logs and alerts is foundational to becoming a SOC Analyst.
+
+## 📺 Resources Used
+- SOC Analyst Roles Explained – YouTube
+- What is SIEM? – YouTube
+- How Logs Help Detect Threats – YouTube
+
+
