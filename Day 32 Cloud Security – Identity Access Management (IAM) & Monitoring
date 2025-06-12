@@ -1,0 +1,20 @@
+# 🚀 Day 32: Cloud Security – Identity, Access Management (IAM) & Monitoring
+
+## 🔐 Topics Covered
+- Cloud Security Fundamentals
+- IAM (Identity and Access Management):
+  - Least Privilege, MFA, RBAC
+  - AWS IAM, Azure AD, GCP IAM structure
+  - IAM Misconfigurations and Attack Vectors
+  - Monitoring in the Cloud:
+  - AWS CloudTrail, Azure Monitor, GCP Logs
+  - Importance of alerting, audit trails, log retention
+
+## 🛠️ Hands-On Labs
+- ✅ TryHackMe – Intro to Cloud Security
+- ✅ AWS - YouTube
+
+-✅ AWS CLI IAM commands (simulated):
+  aws iam list-users
+  aws sts get-caller-identity
+  aws iam list-roles
