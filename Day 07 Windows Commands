@@ -1,0 +1,38 @@
+# 🚀 Day 7 - Windows Commands for Cybersecurity 
+
+
+
+## 🧠 What I Learned Today:
+
+Today was all about exploring **Windows Operating System** from a cybersecurity perspective. I focused on essential commands and how attackers or defenders might use them during incidents.
+
+---
+
+## ⚙️ Windows Command Line Tools Practiced:
+
+
+`whoami` - Displays current username 
+ `hostname` - Displays system name 
+ `ipconfig` - Shows IP address & network configuration 
+ `netstat -ano` - Shows active connections & listening ports 
+ `tasklist` - Lists running processes 
+ `taskkill /PID <id>` - Kills a specific task by process ID 
+ `net user` - Lists user accounts 
+ `net localgroup administrators` - Shows admin users 
+ `systeminfo` - Displays detailed system information 
+ `wmic qfe list` - Lists installed updates 
+ `dir /s` - Lists all files including subdirectories 
+ `attrib` - Shows file attributes (hidden, read-only, etc.) 
+ `schtasks /query` - Lists scheduled tasks 
+ `set` - Displays environment variables 
+
+-
+
+## 📚 Summary:
+
+ I practiced using **CMD** to understand how attackers might gather information or move laterally.  
+ Learned how to investigate users, processes, and scheduled tasks.  
+ Built a habit of **thinking like a defender** while exploring Windows.
+
+
+
