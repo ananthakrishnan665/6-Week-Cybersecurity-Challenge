@@ -1,0 +1,24 @@
+# 🚀 Day 9 – Networking Fundamentals (Part 2)
+
+## 📘 Topics Covered
+
+- What is DNS and how it works  
+- How DHCP dynamically assigns IP addresses  
+- ICMP and its role in network diagnostics  
+- TCP vs UDP – key differences  
+- Ports and common services (e.g., SSH – 22, HTTP – 80, DNS – 53)  
+- Port scanning basics  
+- Hands-on commands and analysis
+
+## 💻 Commands Practiced
+
+```bash
+ping google.com  
+traceroute google.com  
+nslookup openai.com  
+host openai.com  
+dig openai.com  
+nmap -sS 192.168.1.1  
+nmap -p 1-1000 192.168.1.1  
+netstat -tuln  
+whois google.com
