@@ -1,0 +1,36 @@
+# 🚨 Day 22: Threat Hunting & MITRE ATT&CK Framework
+
+## 🧠 Key Concepts Learned
+
+- **Threat Hunting** is a proactive approach to identifying threats that may have evaded traditional security tools.
+- **Threat Hunting Methodologies**:
+  - Hypothesis-Driven
+  - Intelligence-Driven
+  - Analytics-Driven
+
+## 🧱 MITRE ATT&CK Framework
+
+- A structured knowledge base of adversary tactics and techniques.
+- Helps map incidents to known behavior patterns for faster and smarter detection.
+
+### Tactics vs. Techniques
+
+| Tactic               | Example Technique                        |
+|----------------------|------------------------------------------|
+| Initial Access        | Phishing (T1566)                        |
+| Execution             | Command & Scripting Interpreter (T1059) |
+
+## 🔧 Tools & Resources for Future Use
+
+- MITRE ATT&CK Website
+- Sigma Rules
+- Atomic Red Team (simulating attacker behavior)
+- Caldera (adversary emulation)
+- ThreatHunter-Playbook (real-world detection examples)
+
+## 🧪  Lab Practiced
+
+- TryHackMe MITRE Room
+
+
+
