@@ -1,0 +1,43 @@
+# 📅 Day 4 - Linux Networking Commands (SOC Analyst Perspective)
+
+
+
+##  Focus:
+Today, I learned the core Linux networking commands that a **SOC Analyst** or cybersecurity expert uses to monitor and troubleshoot network issues.
+
+
+
+##  Theory Concepts Covered:
+
+- **IP Addressing**:  
+  Learned how devices are identified in a network using IP addresses. Commands like `ip a` and `hostname -I` help to verify these.
+
+- **Routing Table**:  
+  Understood how Linux routes traffic and how `ip route` and `netstat -rn` help check the system’s path to different networks.
+
+- **DNS Resolution**:  
+  Grasped how domain names are translated into IPs using DNS. Tools like `dig` and `nslookup` are used to investigate DNS records.
+
+- **Packet Flow and Latency**:  
+  Learned how to track packet travel and delays using `ping` and `traceroute` — essential for identifying network bottlenecks or routing issues.
+
+- **Interface Monitoring**:  
+  Understood how to list and inspect all network interfaces using `ifconfig` and `ip a`.
+
+
+
+##  Commands Practiced:
+
+1. `ip a` – Displays all IP addresses and interfaces.
+2. `ip route` – Shows routing table.
+3. `hostname -I` – Shows current IP address.
+4. `ping google.com` – Checks connection and latency.
+5. `traceroute google.com` – Traces the route taken by packets.
+6. `nslookup google.com` – Queries DNS for IP.
+7. `dig google.com` – Gets detailed DNS records.
+8. `netstat -rn` – Displays routing information.
+9. `ifconfig` – Shows legacy interface information.
+
+
+
+
