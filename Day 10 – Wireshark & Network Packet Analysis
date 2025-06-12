@@ -1,0 +1,28 @@
+# 🚀 Day 10 – Wireshark & Network Packet Analysis
+
+## 🔍 What I Learned
+- Importance of Wireshark in analyzing network traffic
+- How to capture live network packets
+- Structure of packets (Ethernet → IP → TCP/UDP → Application layer)
+- Using display filters:
+  - `ip.addr == 192.168.1.1`
+  - `http`
+  - `tcp.port == 80`
+  - `dns`
+- Recognizing suspicious or malicious traffic patterns
+- Basics of protocol dissection
+
+## 🧪 Commands & Filters Practiced
+-ip.addr == [IP]
+-tcp.port == 80
+-http.request
+-dns
+-icmp
+
+
+## 🛠️ Tools Used
+- Wireshark (on Kali Linux)
+- Sample packet capture (PCAP files)
+- TryHackMe Room: Wireshark 
+
+
