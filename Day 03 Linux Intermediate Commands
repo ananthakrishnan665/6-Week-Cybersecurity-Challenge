@@ -1,0 +1,46 @@
+#  Day 3 Linux Intermediate Commands
+
+
+
+
+
+### 1. Permissions Management
+- `ls -l` → Shows file permissions in detail.
+- `chmod 755 filename` → Changes permission of a file.
+- `chmod 000 filename` → Locks a file (no permissions).
+- `chmod 644 filename` → Owner can read/write, others only read.
+- `chown user:group filename` → Changes file owner and group.
+
+### 2. User and Group Management
+- `sudo adduser username` → Adds a new user.
+- `sudo passwd username` → Changes password for a user.
+- `sudo deluser username` → Deletes a user.
+- `groups username` → See which groups user belongs to.
+- `su username` → Switch to another user.
+  
+
+
+##  Practical Activities
+- Created and deleted users inside Kali Linux.
+- Practiced locking and unlocking files using chmod.
+- Practiced switching between user accounts (su).
+
+
+
+## 🛡 Cybersecurity Concepts
+
+### Threat Actors:
+- **Nation-State Hackers**: Sponsored by governments.
+- **Cybercriminals**: Hackers for financial gain.
+- **Insiders**: Employees leaking company data.
+- **Hacktivists**: Hacking for political/social reasons.
+
+### Attack Vectors:
+- Phishing Emails.
+- Software Vulnerabilities.
+- Poor Passwords and Human Errors.
+- Infected USB Devices.
+
+
+
+
