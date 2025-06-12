@@ -1,0 +1,31 @@
+# 🛡️ Day 18: Network Security Monitoring 
+
+## 📌 What I Learned
+
+### 🔍 What is Network Security Monitoring
+- NSM is the collection, analysis, and escalation of indications and warnings to detect and respond to intrusions.
+- It's different from traditional IDS because it provides contextual data, not just alerts.
+
+### 🧠 Core Concepts
+- **Full Packet Capture** – Capturing every bit of data over a network.
+- **Flow Data** – Summarized connection info (source IP, dest IP, ports, protocol).
+- **Application Layer Metadata** – Logging HTTP, DNS, SSL data etc.
+
+
+
+## 🛠️ Tool of the Day: Zeek (formerly Bro)
+
+### ✅ What is Zeek?
+- A powerful, flexible network analysis framework.
+- Parses network traffic and generates logs from `.pcap` files.
+- Not signature-based like Snort, instead it's behavioral.
+
+
+
+### 🔧 Installed Zeek
+
+sudo apt update
+sudo apt install zeek
+zeek -r sample.pcap
+ls *.log
+TryHackMe - Zeek
