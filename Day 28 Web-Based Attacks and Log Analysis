@@ -1,0 +1,28 @@
+# 🛡️ Day 28: Web-Based Attacks and Log Analysis
+
+## ✅ Topics Covered:
+- SQL Injection (SQLi)
+- Cross-Site Scripting (XSS)
+- Local/Remote File Inclusion (LFI/RFI)
+- Command Injection
+- Directory Traversal
+- Web log patterns for each attack
+- OWASP Top 10 overview
+
+## 🔧 Tools Used:
+- Burp Suite 
+- Linux CLI (`grep`, `awk`) for log parsing
+- Browser developer tools
+- Sample Apache logs
+
+## 🧪 Labs Completed:
+- TryHackMe OWASP Top 10
+
+
+## 📚 Key Learnings:
+- How to recognize attack indicators in HTTP requests/logs
+- How web vulnerabilities get exploited
+- The role of WAFs and log correlation in early detection
+
+
+
