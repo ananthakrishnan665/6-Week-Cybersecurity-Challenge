@@ -1,0 +1,16 @@
+🛡️ Topics Covered:
+- Insider Threat Types & Indicators
+- Tools & techniques for detecting insider risks
+- Supply Chain Attack Vectors & Real-world Incidents
+- Defense Mechanisms (Zero Trust, Least Privilege, Vendor Evaluation)
+
+
+🧠 Concepts Applied:
+- Behavioral analytics
+- Access control review
+- Segmentation & monitoring for internal threats
+
+📚 References:
+- CISA Insider Threat Guide : CISA -https://www.cisa.gov/resources-tools/resources/insider-threat-mitigation-guide
+- MITRE ATT&CK – Insider Techniques
+- NIST SP 800-161 on supply chain risk management
