@@ -1,0 +1,27 @@
+# Day 15: SOC Analyst Fundamentals – Part 2 (SIEM & Hands-On Practice)
+
+## 🔍 What I Learned
+
+Today I deepened my understanding of SIEM tools and their vital role in the SOC environment.  
+SIEMs help collect, normalize, and analyze logs in real-time, enabling faster detection and response.
+
+### Key Concepts:
+- What is SIEM and why it matters in security operations
+- Log aggregation, normalization, correlation, and alerting
+- False positive reduction through rule tuning
+- SOC alert triage using SIEM dashboards
+
+### 🛠️ Practical Task:
+- Completed TryHackMe room: Splunk   
+- Explored log queries, filtering, and dashboard usage
+- Simulated triage of security alerts in Splunk
+
+## 🔗 Tools Used
+- Splunk
+- TryHackMe - Splunk
+
+
+
+## 📘 Notes
+This was my first hands-on dive into SIEM tools, and it helped me understand how a SOC uses these platforms to triage and investigate alerts effectively. Looking forward to expanding on this in coming days.
+
