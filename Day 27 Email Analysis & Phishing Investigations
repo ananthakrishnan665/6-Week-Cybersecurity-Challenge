@@ -1,0 +1,28 @@
+# 📧 Day 27: Email Analysis & Phishing Investigations
+
+## 🔍 Topics Covered
+- Types of phishing attacks (BEC, spear phishing, clone phishing)
+- Email header structure & analysis
+- Body and link analysis (malicious URL indicators)
+- Attachment threats and sandbox inspection
+- Indicators of compromise in phishing emails
+
+## 🧪 Labs Completed
+- TryHackMe: Phishing Emails- Writing Convincing Phishing Emails
+- TryHackMe: Phishing Analysis tool - Email header analysis and Email body analysis
+
+## 🧰 Tools & Techniques Used
+- `base64 -d`, `curl`, `nslookup`, `whois`
+- VirusTotal(https://www.virustotal.com/)
+- URLScan.io(https://urlscan.io/)
+- CyberChef(https://gchq.github.io/CyberChef/)
+- MxToolbox(https://mxtoolbox.com/)
+- EmailRep.io(https://emailrep.io/)
+- AnyRun(https://any.run/)
+
+## 🧠 Key Takeaways
+- Email headers reveal a lot about spoofed or forged emails
+- Malicious links and encoded payloads are common in phishing
+- Analyzing attachments in a sandbox prevents local infections
+- Early detection of phishing can prevent large-scale breaches
+
