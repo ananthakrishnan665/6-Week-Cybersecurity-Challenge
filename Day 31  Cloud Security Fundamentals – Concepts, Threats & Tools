@@ -1,0 +1,10 @@
+Day 31 Completed: Cloud Security Fundamentals – Concepts, Threats & Tools
+
+✔️ Covered cloud service models (IaaS, PaaS, SaaS) and shared responsibility
+✔️ Studied common cloud security threats (misconfigurations, insider threats, API abuse)
+✔️ Explored IAM, MFA, CloudTrail, GuardDuty, Azure Security Center
+✔️ Practiced with TryHackMe - Intro to Cloud Security
+✔️ Reviewed OWASP Cloud Native Top 10
+
+Labs: TryHackMe: Intro to cloud security
+       Aws - YouTube
