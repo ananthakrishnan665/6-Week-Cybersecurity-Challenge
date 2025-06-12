@@ -1,0 +1,26 @@
+# 🛡️ Day 24 – Digital Forensics: Memory, Disk & File Forensics (Part 1)
+
+## ✅ Topics Covered:
+- Introduction to Digital Forensics
+- Memory Forensics: RAM acquisition & analysis
+- Disk and File Forensics: Deleted file recovery, metadata, and imaging
+- Forensic investigation process: Acquisition → Preservation → Analysis → Documentation
+
+## 🧪 Practical Tools Explored:
+- **Volatility** – Memory analysis
+- **Autopsy** – GUI-based disk and file forensic tool
+- **FTK Imager** – Disk imaging and file capture
+- **Binwalk** – Firmware analysis and binary inspection
+- Command-line tools: `strings`, `file`, `hexdump`
+
+## 🧠 Lab Completed:
+- TryHackMe Room: Introduction to Digital Forensics
+
+## 📝 Key Learnings:
+- Volatility helps retrieve running processes, network connections, and malicious traces from RAM dumps.
+- Autopsy simplifies file system browsing, keyword search, and timeline analysis.
+- Proper forensic procedure ensures admissibility in legal investigations.
+
+---
+
+
