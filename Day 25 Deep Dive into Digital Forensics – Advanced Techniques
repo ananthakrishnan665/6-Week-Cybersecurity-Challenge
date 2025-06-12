@@ -1,0 +1,36 @@
+# 🚀 Day 25: Deep Dive into Digital Forensics – Advanced Techniques
+
+## 🧠 Topics Covered:
+- Advanced Disk Forensics
+  - Disk imaging and hash verification (MD5/SHA1)
+  - Partition structure and file system artifacts
+- Memory Forensics (Volatility Framework)
+  - Process analysis, DLL injection detection
+  - Extracting credentials, loaded modules, suspicious handles
+- File Metadata & Registry Forensics
+  - File timestamps (MAC times), alternate data streams
+  - Registry hives: NTUSER.DAT, SYSTEM, SOFTWARE
+- Timeline Analysis
+  - Building timelines with log2timeline/plaso
+  - Correlation of logs, registry, and shellbags
+- Artifact Correlation & Evidence Triage
+  - Prefetch files, shimcache, event logs, etc.
+
+## 🔧 Tools Used:
+- **FTK Imager** – Imaging and hash verification  
+- **Autopsy** – File system and timeline analysis  
+- **Volatility** – Memory forensic analysis  
+- **Log2Timeline** – Timeline creation  
+- **CyberChef** – Artifact decoding and analysis  
+- **Registry Explorer** – Registry hive parsing
+   --TryHackMe - Digital Forensic Fundamentals
+
+
+## 📂 Commands & Usage:
+
+### Volatility 3
+
+volatility3 -f memory.raw windows.pslist.PsList
+volatility3 -f memory.raw windows.dlllist.DllList
+volatility3 -f memory.raw windows.cmdline.CmdLine
+volatility3 -f memory.raw windows.netscan.NetScan
