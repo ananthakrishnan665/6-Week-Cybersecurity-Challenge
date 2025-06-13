@@ -1,0 +1,38 @@
+# 🔐 Day 37 Attacker Techniques in the Real World
+
+Today, I didn’t just “study” — I understood how real-world cyberattacks actually happen.  
+From phishing emails to privilege escalation, I explored how attackers think, move, and hide.
+
+
+
+## What I Learned
+
+- **Phishing** isn’t just email spam — it’s how attackers breached MGM Resorts in 2023 using a fake LinkedIn message.
+- **Living off the Land (LOTL)** — Like Volt Typhoon using built-in Windows tools (no malware!) to stay undetected.
+- **Privilege Escalation** — Used tools like `winPEAS` and `GTFOBins` to simulate attackers gaining admin access.
+- **PowerShell Abuse** — Learned how attackers encode payloads to run commands stealthily.
+- **Web Exploits** —  XSS, SQL Injection, and Web Shells using OWASP Top 10.
+- **Lateral Movement** — Studied attacker methods to move across networks using RDP, stolen hashes, and misconfigs.
+- **Data Exfiltration** — Explored how data can be hidden and sent out via DNS traffic without raising alerts.
+
+
+
+## Tools & Platforms I Used
+
+- TryHackMe Labs (Web Exploits, PrivEsc, Phishing Simulations)
+- Sysinternals Suite (Autoruns, Procmon)
+- MITRE ATT&CK Framework
+- OWASP Top 10 Labs
+- Wireshark and Zeek for traffic and exfiltration analysis
+
+
+
+## Reflection
+
+This wasn’t just another lab day — it was a mindset shift.  
+I now think more like an attacker, which is the first step to becoming an elite defender.  
+Everything I practiced is based on real-world attack patterns.
+
+
+
+
