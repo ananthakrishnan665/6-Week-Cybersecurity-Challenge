@@ -1,0 +1,43 @@
+#  Day 40 – Networking Deep Dive Begins Foundations of Networking in Cybersecurity  
+# Platform: TryHackMe – Cybersecurity 101 Certificate  
+# Tags: #Networking #CyberSecurity101 #TryHackMe
+
+
+
+##  Networking Rooms Completed on TryHackMe
+
+- **Networking Concepts**  
+  Learned about:
+  - IP addresses, ports, packets
+  - Protocols (TCP/UDP)  
+  - How data flows through networks
+
+-  **Networking Essentials**  
+  Explored:
+  - DNS (Domain Name System)
+  - DHCP (Dynamic Host Configuration Protocol)
+  - NAT (Network Address Translation)
+  - Basic routing principles
+
+- **Networking Core Protocols**  
+  Studied:
+  - HTTP / HTTPS  
+  - FTP  
+  - SSH  
+  - ICMP (Ping, Traceroute)
+
+-  **Networking Secure Protocols**  
+  Understood:
+  - SSL/TLS  
+  - SFTP  
+  - HTTPS  
+  - VPNs (Virtual Private Networks)
+
+
+
+
+
+ Every protocol I studied today can either be:
+ - a **doorway for attackers** (when misconfigured or left exposed), or  
+ - a **defense mechanism** when hardened and used securely.
+
