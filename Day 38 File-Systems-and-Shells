@@ -1,0 +1,43 @@
+# Day 38 – My Cybersecurity Journey Understanding the operating system backbone — file systems, shells, and terminal power.
+
+
+
+##  Key Linux System Folders I Explored
+
+-  `/bin` – Essential system binaries  
+-  `/etc` – System-wide configuration files  
+- `/var` – Variable data like logs, mail, spool  
+-  `/home` – User-specific directories  
+-  `/dev` – Device files  
+
+These folders are the structure that keeps **Linux organized and operational** — critical for defenders and attackers to understand.
+
+
+
+##  Command Line Mastery
+
+###  Completed:
+- TryHackMe Room: **Command Line Basics**
+
+###  Revision Topics:
+-  Windows CMD basics  
+-  PowerShell scripting & automation  
+-  Linux Shells and their power in hacking, forensics, and automation
+
+> These aren't just terminals — they’re **weapons** in ethical hacking, forensics, and cyber defense.
+
+
+
+##  Resources
+
+- [TryHackMe: Command Line Room](https://lnkd.in/eSy_qbav)  
+- [PowerShell Scripting Fundamentals](https://lnkd.in/eRpeErbM)  
+- [Linux Shell Crash Course](https://lnkd.in/ejw-UrUE)
+
+
+
+##  Reflection
+
+Today I unlocked the real power behind the keyboard — the shell.  
+Understanding **file systems and command lines** is not optional — it’s fundamental.  
+This knowledge fuels scripting, automation, malware analysis, and forensic investigation.
