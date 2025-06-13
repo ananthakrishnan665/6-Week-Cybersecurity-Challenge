@@ -1,0 +1,50 @@
+##Day 36 
+
+Today I took a deep dive into the real structure of the Internet — and it blew my mind.  
+Cybersecurity isn’t just about hacking or tools — it’s about understanding the terrain we're defending.
+
+
+
+##  What I Explored
+
+### How the Internet Works
+- Submarine cables & optical fiber — the **physical backbone** connecting continents.
+- How the Internet reaches users via the global structure:
+- **ICANN → IANA → 5 RIRs**
+- Example for India:  
+    `ICANN → IANA → AFNIC → IRINN → ISPs → End Users`
+
+
+
+### The TOR Project
+- Who runs **Tor servers** and how **onion routing** protects anonymity.
+- Roles of **Entry Nodes**, **Middle Relays**, and **Exit Nodes**.
+- Explored privacy-focused tools like:
+- **Ahmia Search Engine**
+- **Hidden Wiki Directories**
+
+
+
+### Layers of the Web
+- 🩷 The difference between:
+  - **Surface Web** (indexed by Google)
+  - **Deep Web** (login-protected content)
+  - **Dark Web** (accessible via Tor)
+  - Learned about:
+  - Realities vs. myths — e.g., the **Silk Road** case
+  - Ethical, legal, and technical implications
+
+
+
+### Bonus Knowledge
+- Learned about **Vint Cerf**, often called the *Father of the Internet*.
+
+
+
+## Reflection
+> Cybersecurity is not just about scanning ports or writing exploits.  
+> It's about understanding the vast digital landscape — from fiber cables beneath oceans to anonymized networks above.  
+> Today, I learned how deep this rabbit hole truly goes.
+
+
+
