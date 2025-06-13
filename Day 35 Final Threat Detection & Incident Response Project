@@ -1,0 +1,81 @@
+## Day 35 Goal: Final Threat Detection & Incident Response Mini Capstone Project.
+### Incident Detection & Response
+
+# Incident Summary 
+
+An employee from the Finance team reported a suspicious email. The phishing email contained a link to a fake login page resembling Outlook Web Access.
+The user unknowingly submitted their credentials, which were later used by an attacker to log in from an external IP address.
+
+|------------------------------------------------------------------------------------------------------------------------------------------|                                                                   
+|             Date: 06/3/2025                      |                  Entry: 1                                                             |                                                                  
+|--------------------------------------------------|---------------------------------------------------------------------------------------|
+|   Incident Type                                  |   * Phishing attempts leads to credential theft.                                      |
+|--------------------------------------------------|---------------------------------------------------------------------------------------|
+|   Detected By                                    |   * Email Analysis: Suspecting domain, Reply to address mismatch.                     |
+|                                                  |                                                                                       |                                             
+|                                                  |   * Browser History: chrome launched a suspicious url                                 |
+|                                                  |                     https://secure-login365.com/owa or                                |
+|                                                  |                                                                                       |
+|                                                  |   * Sysmon event: chrome launching a suspicious event                                 |
+|                                                  |                                                                                       |
+|                                                  |   * Whois lookup for domain: Domain recently registered, indicating                   |  
+|                                                  |                             potential use in phishing attack                          |
+|                                                  |                                                                                       |
+|                                                  |   * Login log: Suspected IP address log in, checked using ipinfo.io                   |
+|--------------------------------------------------|---------------------------------------------------------------------------------------|
+|                                                  |                                                                                       |
+|   Indicators                                     |   * Suspicious Domain:   https://secure-login365.com                                  |
+|                                                  |                                                                                       |
+|                                                  |   * Attacker IP address: 85.214.132.117                                               |
+|                                                  |                                                                                       |
+|                                                  |   * Tactics Used: PowerShell activity (suspected data exfiltration)                   |
+|--------------------------------------------------|---------------------------------------------------------------------------------------|
+|                                                  |                                                                                       |
+|   Attacker Goal                                  |   * The attacker aimed to gain initial access via phishing,                           |
+|                                                  |     steal credentials, and potentially exfiltrate data using                          |
+|                                                  |     PowerShell-based activity.                                                        |
+|                                                  |                                                                                       |
+|--------------------------------------------------|---------------------------------------------------------------------------------------| 
+|                                                  |                                                                                       |
+|                                                  |                                                                                       |
+|   Containment Steps                              |   * Block Suspicious IP address and domain                                            |                       
+|                                                  |                                                                                       |
+|                                                  |   * Lock compromised user account                                                     |
+|                                                  |                                                                                       |
+|                                                  |   * Reset password of affected users                                                  |
+|--------------------------------------------------|---------------------------------------------------------------------------------------|
+|                                                  |                                                                                       |
+|   MITRE Techniques                               |   * Phishing: Spearphishing Attachment, Sub-technique T1566.001                       |
+|                                                  |                                                                                       |
+|                                                  |   * Command and Scripting Interpreter: PowerShell, Sub-technique T1059.001            |
+|                                                  |                                                                                       | 
+|                                                  |   *  Modify Authentication Process: Password Filter DLL, Sub-technique                |
+|                                                  |      T1556.002                                                                        |
+|                                                  |                                                                                       |
+|                                                  |   * Application Layer Protocol: Web Protocols, Sub-technique T1071.001                |
+|                                                  |                                                                                       |
+|                                                  |   * Deobfuscate/Decode Files or Information, Technique T1140                          |
+|--------------------------------------------------|---------------------------------------------------------------------------------------|
+|                                                  |                                                                                       |
+|   Systems Affected                               |   * User Endpoint                                                                     |
+|                                                  |   * OS Windows 10                                                                     |
+|--------------------------------------------------|---------------------------------------------------------------------------------------|
+|                                                  |                                                                                       |
+|   Remediation                                    |   * Educate users - By providing training                                             |
+|                                                  |                                                                                       |
+|                                                  |   * Filtering Emails                                                                  |
+|                                                  |                                                                                       |
+|                                                  |   * Enable Multi Factor authentication if it is not setup                             |
+|                                                  |                                                                                       |
+|                                                  |   * Ensure password changes according to organization policy                          |
+|--------------------------------------------------|---------------------------------------------------------------------------------------|
+|                                                  |                                                                                       |
+|   Summary of Investigation                       |   * This simulated incident demonstrates how I detected and responded to a            |
+|                                                  |      credential theft attack originating from a phishing email.                       |
+|                                                  |      I used technlike email header analysis, browser history review,                  |
+|                                                  |      WHOIS/IP lookups, and MITRE ATT&CK mapping to investigate the event.             |
+|                                                  |      The report includes containment remediation, and documentation steps,            |
+|                                                  |      simulating real SOC operations.                                                  |
+|                                                  |                                                                                       |
+|------------------------------------------------------------------------------------------------------------------------------------------|
+
