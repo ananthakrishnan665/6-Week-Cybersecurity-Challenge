@@ -1,0 +1,44 @@
+# Day 39 of My 6-Week SOC & Ethical Hacking Journey #Reconnaissance #GoogleDorking #PassiveRecon
+
+
+
+##  Information Gathering – Passive Reconnaissance
+
+Today I explored one of the most critical phases of ethical hacking:  
+**Information Gathering** — the art of collecting data without touching the target directly.
+
+
+
+##  What I Learned & Practiced
+
+###  Passive Reconnaissance Techniques
+- Used **public tools and sources** to gather data without alerting the target.
+- Built intelligence on companies, subdomains, tech stacks, and exposure points — all without a single ping.
+
+
+
+##  Tools I Explored
+
+-  chaos.projectdiscovery.io](https://chaos.projectdiscovery.io) – Subdomain discovery  
+- whois.domaintools.com](https://whois.domaintools.com) – Domain ownership & registrar info  
+-  Wappalyzer](https://www.wappalyzer.com) & [BuiltWith](https://builtwith.com) – Identify technologies running behind websites  
+-  `robots.txt` – Peek at restricted crawler directories  
+- **Google Dorking** – Used advanced Google search operators to find:
+- Exposed documents  
+- Misconfigured login pages  
+- Publicly indexed sensitive files
+
+
+
+## Case Study Practice
+
+Used **Tesla** and **Google** as targets (for research purposes) to apply recon techniques.  
+The amount of information discoverable through passive means is **incredible** — no direct interaction needed.
+
+
+
+##  Reflection
+
+> Passive recon is a **silent but powerful** phase of ethical hacking.  
+> It helps build the **attack surface blueprint** — crucial for planning real-world security assessments.  
+> Today, I understood that *information is power* — especially when you know where to look.
